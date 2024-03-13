@@ -33,6 +33,20 @@
                 color: white;
                 text-shadow: 0 1px 0 #000;
 
+                @media only screen and (max-width: 390px) {
+                    width: 95%;
+                    height: 80vh;
+
+                }
+
+                @media only screen and (max-width: 428px) {
+                    width: 95%;
+                    height: 80vh;
+
+                }
+
+
+
                 input {
                     border-radius: 6px;
                     padding: 20px 20px;
@@ -43,6 +57,11 @@
                     font-family: 'Montserrat', sans-serif;
                     font-size: 15px;
 
+                    @media only screen and (max-width: 1280px) {
+                        width: 250px;
+                        height: 50px;
+                    }
+
                 }
 
                 .navlink {
@@ -50,6 +69,7 @@
                     align-items: center;
                     justify-content: center;
                     width: 300px;
+
                 }
 
                 button {
@@ -60,6 +80,11 @@
                     font-size: 20px;
                     color: white;
                     border: none;
+
+                    @media only screen and (max-width: 390px) {
+                        width: 250px;
+                        height: 50px;
+                    }
 
                     .active {
                         color: white;
@@ -72,6 +97,10 @@
                     font-size: 40px;
                     // background-color: #000;
                     font-family: 'Montserrat', sans-serif;
+
+                    @media only screen and (max-width: 390px) {
+                        font-size: 32px;
+                    }
                 }
 
                 --border-angle: 0turn; // For animation.
