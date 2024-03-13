@@ -1,0 +1,16 @@
+import logo from './images/logo.png'
+import logocha from './images/logocha.svg'
+import logoali from './images/logoali.svg'
+import bluestar from './images/blue_stae.png'
+import abbosbek from './images/Logo.jpg'
+import abbosali from './images/abbosali.jpg'
+import tteld from './images/TTLD.png'
+import Gpstab from './images/Gps_tab.png'
+import Service from './images/SERVI.png'
+import elldone from './images/elldone.jpg'
+import eld from './images/eld.png'
+import tteldd from './images/tteld.svg'
+import clock from './images/clock.jpg'
+import photo from './images/photo.jpg'
+
+export { logo, bluestar, tteld, Gpstab, elldone, tteldd, logoali, logocha, clock, eld, abbosbek, abbosali, Service }

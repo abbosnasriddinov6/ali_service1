@@ -1,0 +1,50 @@
+@import'../scss/main.scss';
+.Header1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30vh;
+    // border: $border;
+
+    .llogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: 100%;
+        // border: $border;
+
+        img {
+            width: 80%;
+            height: 80%;
+        }
+
+
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+        // border: $border;
+
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            li {
+                color: var(--white, #060505);
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+
+            }
+        }
+    }
+}

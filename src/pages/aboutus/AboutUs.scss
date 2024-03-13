@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200;1,300;1,500&display=swap');
+@import'../../scss/main.scss';
+
+@media only screen and (max-width:1280px) {
+    .Home {
+        width: 100%;
+        height: 90vh;
+
+        background-image: url(../../../public/background001.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 80vh;
+
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .abouttruck {
+        width: 100%;
+        height: 90vh;
+
+        background-image: url(../../../public/v1016-b-09.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 90vh;
+
+    }
+}
+
+.Home {
+    width: 100%;
+    height: 100%;
+    // background: #F5F5F5;
+    background-image: url(../../../public/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover !important;
+    object-position: center !important;
+
+    // border: $border;
+
+    .container {
+        max-width: 1440px;
+        height: 100%;
+        margin: 0 auto;
+
+        // border: $border;
+        .home {
+
+            width: 100%;
+            height: 100%;
+            // background-color: white;
+            position: relative;
+
+            // border: $border;
+            .h1 {
+                display: flex;
+                @include center();
+                width: 100%;
+                height: 15%;
+                // background-color: red;
+
+                // border: $border;
+                h1 {
+                    color: white;
+                    margin-top: 20px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 35px;
+                }
+            }
+
+            .cards {
+                position: absolute;
+                display: grid;
+                grid-template-columns: auto auto;
+                align-items: center;
+                justify-content: space-around;
+                width: 100%;
+                height: 85%;
+                // border: $border;
+                // background-color: white;
+
+                // border: $border;
+                .card {
+                    border-radius: 16px;
+                    padding: 30px 30px;
+                    width: 550px;
+                    height: 200px;
+                    border: 1px solid white;
+                    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+                    border-radius: 8px 10px 10px 8px;
+                    background: white;
+
+                    h3 {
+                        color: black;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+
+                    p {
+
+                        margin-top: 30px;
+                        width: 300px;
+                        color: black;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.abouttruck {
+    background-image: url(../../../public/v1016-b-09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover !important;
+    object-position: center !important;
+    width: 100%;
+    height: 100%;
+
+
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        height: 100%;
+        // background-color: white;
+
+        .sunami {
+            width: 100%;
+            height: 100%;
+
+            // .margin {
+            //     width: 100%;
+            //     height: 6%;
+            //     // background-color: white;
+            // }
+
+            .Header2 {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 18%;
+                border-radius: 50px;
+                // border: $border;
+                border: 1px solid white;
+                background-color: white;
+                box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+
+                .llogoo {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 20%;
+                    height: 100%;
+                    // border: $border;
+
+                    img {
+                        width: 80%;
+                        height: 80%;
+                    }
+
+
+                }
+
+                .navbarr {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60%;
+                    height: 100%;
+                    // border: $border;
+
+                    ul {
+                        width: 100%;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        gap: 10px;
+
+                        li {
+                            margin-right: 100px;
+                            color: black;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 17px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+
+                        }
+                    }
+                }
+            }
+
+
+            .aboutuss {
+
+                width: 100%;
+                height: 100%;
+
+                .Us {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 100%;
+                    height: 60%;
+
+                    .works {
+                        padding: 0 20px;
+                        width: 250px;
+                        height: 400px;
+                        border: 1px solid white;
+                        background: white;
+                        border-radius: 8px;
+                        box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+
+                        h1 {
+                            width: 180px;
+                            height: 100px;
+                            color: black;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 66px;
+                            // background-color: red;
+                        }
+
+                        p {
+                            width: 100%;
+                            height: 30%;
+                            color: black;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 18px;
+                        }
+
+                        img {
+                            width: 100%;
+                            height: 50%;
+                        }
+
+                    }
+                }
+
+                .way {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 15%;
+
+                    .buton {
+
+                        width: 200px;
+                        height: 65px;
+
+                        button {
+                            width: 200px;
+                            height: 65px;
+                            border-radius: 6px;
+                            border: 1px solid white;
+                            background-color: white;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 24px;
+                            color: black;
+                            box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+                            cursor: pointer;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
